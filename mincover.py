@@ -126,15 +126,19 @@ def check_redundant(lhs, rhs, max_cover):
 	return False
 
 def minimize(reduced_relation, max_cover):
+
+	minimized_relation = []
+
 	for fd in reduced_relation:
 		lhs = fd[0]
 		rhs = fd[1]
 		#print "DEBUG: Checking if " + lhs + ' -> ' + rhs + " is redundant"
 		if check_redundant(lhs, rhs, max_cover):
-			#print "DEBUG: REDUNDANT"
-			reduced_relation.remove(fd)
+			pass
+		else:
+			minimized_relation.append(fd)
 
-	return reduced_relation
+	return minimized_relation
 
 ######################
 
