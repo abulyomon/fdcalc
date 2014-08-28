@@ -1,0 +1,8 @@
+A->BCG
+IG->BF
+C->DEF
+ED->GJF
+HD->C
+AG->J
+AD->F
+DEC->G
