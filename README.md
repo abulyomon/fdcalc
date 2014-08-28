@@ -19,3 +19,16 @@ You can try with the supplied example:
 ```
 python mincover.py example.txt
 ```
+TODO
+===
+**mincover.py**
+* Present final FDs equivilant unioned
+* Determine Primary Key
+
+**normalize.py**
+
+Create a tool to take FDs to 3NF
+
+**General**
+
+Re-organize code, clean, and add a whole bunch of comments for readability and documentation.
