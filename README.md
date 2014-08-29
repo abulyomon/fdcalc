@@ -1,9 +1,9 @@
 fdcalc
 ======
 
-fdcalc is concerned with relations' functional dependancies.
+fdcalc is concerned with relations and their functional dependancies.
 
-The first tool is mincover.py that calculcates minimal cover for a relation's given functional dependancies.
+The first tool is mincover.py which calculcates minimal cover for a relation given its functional dependancies.
 
 Run
 ===
@@ -19,6 +19,7 @@ You can try with the supplied example:
 ```
 python mincover.py example.txt
 ```
+
 TODO
 ===
 **mincover.py**
